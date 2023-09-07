@@ -16,6 +16,11 @@ export class TaskService {
     return tasks;
   }
 
+  addTask(task: Task): Observable<Task> {
+    const postedTask = this.http.post<Task>(this.apiUrl,task)
+    return postedTask
+  }
+
   deleteTask(task: Task): Observable<Task> {
     const tasks = this.http.delete<Task>(`${this.apiUrl}/${task.id}`)
     return tasks
@@ -25,4 +30,5 @@ export class TaskService {
     const tasks = this.http.put<Task>(`${this.apiUrl}/${task.id}`, task)
     return tasks
   }
+
 }
