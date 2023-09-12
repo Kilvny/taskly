@@ -16,13 +16,31 @@
       "id": "3",
       "text": "Put food in the freezer",
       "day": "May 5th at 1: 30pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": "4",
       "text": "Renew your GYM subscription",
       "day": "July 1st at 1: 00pm",
-      "reminder": true
+      "reminder": false
+    },
+    {
+      "text": "اشتري المكونات الخاصة بالغدا",
+      "day": "اليوم الساعة 6 مساءً ",
+      "reminder": false,
+      "id": "FrerJff"
+    },
+    {
+      "text": "mabakhlassh",
+      "day": "اليوم الساعة 6 مساءً ",
+      "reminder": false,
+      "id": "HUHeqoc"
+    },
+    {
+      "text": "تمت بحمد الله",
+      "day": "Tuesday 2:00am",
+      "reminder": false,
+      "id": "8bBxALp"
     }
   ]
 }
