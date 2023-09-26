@@ -14,10 +14,17 @@ import { AddTaskComponent } from './components/add-task/add-task.component'
 import { FormsModule } from '@angular/forms';
 import { AboutComponent } from './pages/about/about.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { RegisterComponent } from './pages/register/register.component';
+import { RegisterLayoutComponent } from './components/register-layout/register-layout.component';
 
 const appRoutes: Routes = [
   { path: '', component: TasksComponent },
   { path: 'about', component: AboutComponent },
+  {
+    path: 'register',
+    component: RegisterLayoutComponent,
+    children: [{ path: '', component: RegisterComponent }],
+  },
 ];
 
 @NgModule({
@@ -30,6 +37,8 @@ const appRoutes: Routes = [
     AddTaskComponent,
     AboutComponent,
     FooterComponent,
+    RegisterComponent,
+    RegisterLayoutComponent,
   ],
   imports: [
     BrowserModule,

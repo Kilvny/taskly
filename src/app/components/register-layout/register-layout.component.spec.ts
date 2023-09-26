@@ -1,0 +1,21 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { RegisterLayoutComponent } from './register-layout.component';
+
+describe('RegisterLayoutComponent', () => {
+  let component: RegisterLayoutComponent;
+  let fixture: ComponentFixture<RegisterLayoutComponent>;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      declarations: [RegisterLayoutComponent]
+    });
+    fixture = TestBed.createComponent(RegisterLayoutComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});

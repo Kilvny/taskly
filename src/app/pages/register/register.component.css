@@ -1,0 +1,81 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, rgba(50, 107, 107, 0.959),#e06060);
+  box-sizing: border-box;
+}
+
+
+#form{
+  width: 300px;
+  height: 65vh;
+  margin: 20vh auto 0 auto;
+  padding:20px;
+  background-color: rgb(202, 199, 196);
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+#form h1{
+  color: #0f2027;
+  text-align: center;
+}
+
+#form button{
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+#form button:hover {
+  cursor: pointer;
+}
+
+.input-control{
+  display: flex;
+  flex-direction: column;
+}
+
+.input-control input{
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 10px;
+  width: 92%;
+  display: block;
+}
+
+.input-control input:focus{
+  outline: 0;
+}
+
+.input-control.success input {
+  border-color: #09c372;
+}
+
+.input-control.error input {
+  border-color: #ff3860;
+}
+
+.input-control .error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+}
+
+.swal-button {
+  padding: 7px 19px;
+  border-radius: 2px;
+  background-color: blue;
+  font-size: 12px;
+  border: 1px solid blue;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.swal-modal {
+  background-color: rgba(255,255,255);
+  /* border: 3px solid white; */
+}

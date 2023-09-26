@@ -31,16 +31,16 @@
       "id": "FrerJff"
     },
     {
-      "text": "mabakhlassh",
-      "day": "اليوم الساعة 6 مساءً ",
-      "reminder": false,
-      "id": "HUHeqoc"
-    },
-    {
       "text": "تمت بحمد الله",
       "day": "Tuesday 2:00am",
       "reminder": false,
       "id": "8bBxALp"
+    },
+    {
+      "text": "This was created using angular",
+      "day": "Today",
+      "reminder": true,
+      "id": "-tuura0"
     }
   ]
 }
